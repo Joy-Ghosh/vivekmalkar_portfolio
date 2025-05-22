@@ -19,44 +19,49 @@ const Switcher = () => {
       <Head>
         <link rel="stylesheet" href={`css/skins/${color}.css`} />
       </Head>
-      <div
-        id="switcher"
-        className={toggle ? "open" : "close"}
-        style={{ display: "block" }}
-      >
-        <div className="content-switcher">
-          <h4>COLOR SWITCHER</h4>
-          <ul>
-            {colors.map((color) => (
-              <li>
-                <a
-                  href="#"
-                  title={color.name}
-                  className="color"
-                  key={color.id}
-                  onClick={() => setColor(color.name)}
-                >
-                  <img
-                    src={`assets/styleswitcher/${color.name}.png`}
-                    alt={color.name}
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-          <div id="hideSwitcher" onClick={() => setToggle(false)}>
-            ×
+
+      {/* Wrap the UI in a container */}
+      <div className="switcher-ui">
+        <div
+          id="switcher"
+          className={toggle ? "open" : "close"}
+          style={{ display: "block" }}
+        >
+          <div className="content-switcher">
+            <h4>COLOR SWITCHER</h4>
+            <ul>
+              {colors.map((color) => (
+                <li key={color.id}>
+                  <a
+                    href="#"
+                    title={color.name}
+                    className="color"
+                    onClick={() => setColor(color.name)}
+                  >
+                    <img
+                      src={`assets/styleswitcher/${color.name}.png`}
+                      alt={color.name}
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <div id="hideSwitcher" onClick={() => setToggle(false)}>
+              ×
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        id="showSwitcher"
-        className={`styleSecondColor ${toggle ? "close" : "open"}`}
-        onClick={() => setToggle(true)}
-      >
-        <i className="fa fa-cog" />
+
+        <div
+          id="showSwitcher"
+          className={`styleSecondColor ${toggle ? "close" : "open"}`}
+          onClick={() => setToggle(true)}
+        >
+          <i className="fa fa-cog" />
+        </div>
       </div>
     </Fragment>
   );
 };
+
 export default Switcher;

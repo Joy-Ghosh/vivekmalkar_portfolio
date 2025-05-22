@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +216 21 184 010
+              +91 90027 60182
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -31,7 +31,7 @@ const Contact = () => {
             <i className="fa fa-location-dot" />
             <p>
               <span className="small-text">address</span>
-              London, England
+              Siliguri, West Bengal
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -42,7 +42,7 @@ const Contact = () => {
             <i className="fa fa-envelope" />
             <p>
               <span className="small-text">email</span>
-              contact@steven.net
+              vivekmalakar.work@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -52,23 +52,39 @@ const Contact = () => {
             <span className="small-text">follow me</span>
             <ul className="social">
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-github" />
+                <a
+                  href="https://www.linkedin.com/in/vivek-malakar-48b186252/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-twitter" />
+                <a
+                  href="https://www.instagram.com/find__me?igsh=bjJvYXp5MHVyZXMw&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-dribbble" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
+                <a
+                  href="https://www.facebook.com/share/16U5FHKwyp/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-facebook" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://trello.com/u/vivekmalakar/boards"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-trello"></i>
                 </a>
               </li>
             </ul>

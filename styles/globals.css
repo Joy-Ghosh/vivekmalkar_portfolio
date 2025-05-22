@@ -6,6 +6,9 @@
 .swiper-portfolio {
   padding-right: 250px;
 }
+.switcher-ui {
+  display: none !important;
+}
 
 @media screen and (max-width: 767px) {
   .swiper-portfolio {
