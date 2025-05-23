@@ -749,6 +749,12 @@ header .mobile-menu {
   transform: rotate(45deg);
 }
 
+.about .skills > div > div > div span img {
+  width: 34px;
+  height: 34px;
+  transform: rotate(-45deg);
+}
+
 .about .skills > div > div > div span i {
   font-size: 34px;
   transform: rotate(-45deg);
@@ -756,7 +762,7 @@ header .mobile-menu {
 
 .about .skills > div > div > div h4 {
   margin: 40px 0 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 

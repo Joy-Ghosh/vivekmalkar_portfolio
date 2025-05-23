@@ -124,72 +124,79 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-wordpress-plain" />
+                <img src="assets/logos/premiere-pro.png" alt="premiere-pro" />
+                {/* <i className="devicon-wordpress-plain" /> */}
               </span>
-              <h4>WordPress</h4>
+              <h4>Premiere Pro</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            {/* <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-jquery-plain" />
               </span>
               <h4>jQuery</h4>
-            </div>
+            </div> */}
             {/* SKILL ITEM ENDS */}
           </div>
           <div>
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-angularjs-plain" />
+                <img src="assets/logos/after-effects.png" alt="after-effects" />
+
+                {/* <i className="devicon-angularjs-plain" /> */}
               </span>
-              <h4>Angular JS</h4>
+              <h4>After Effects</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            {/* <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-drupal-plain" />
               </span>
               <h4>Drupal</h4>
-            </div>
+            </div> */}
             {/* SKILL ITEM ENDS */}
           </div>
           <div>
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-react-plain" />
+                <img src="assets/logos/davinci.png" alt="davinci" />
+
+                {/* <i className="devicon-react-plain" /> */}
               </span>
-              <h4>React JS</h4>
+              <h4>Davinci</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            {/* <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-docker-plain" />
               </span>
               <h4>Docker</h4>
-            </div>
+            </div> */}
             {/* SKILL ITEM ENDS */}
           </div>
           <div>
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-nodejs-plain" />
+                <img src="assets/logos/ps.png" alt="photoshop" />
+
+                {/* <i className="devicon-nodejs-plain" /> */}
               </span>
-              <h4>Node JS</h4>
+              <h4>Photoshop</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+            {/* <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-sass-plain" />
               </span>
               <h4>Sass</h4>
-            </div>
+            </div> */}
             {/* SKILL ITEM ENDS */}
           </div>
         </div>
@@ -203,7 +210,7 @@ const About = () => {
           <h3>
             <span>
               <span className="animated-layer fade-in-left-animation">
-                My Resume
+                Work Experience
               </span>
             </span>
           </h3>
@@ -217,14 +224,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Project Manager</h4>
+                  <h4>Video editor (Freelancer)</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2019 - Now</span>
+                    <span>2025</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Adobe Company</span>
+                    <span>Owlet</span>
                   </p>
                 </div>
               </div>
@@ -234,14 +241,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Team Leader</h4>
+                  <h4>Video editor (Freelancer)</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2015 - 2019</span>
+                    <span>2024</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Twitter Inc</span>
+                    <span>Fotostotra</span>
                   </p>
                 </div>
               </div>
@@ -251,14 +258,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
+                  <h4>Video editor (Freelancer)</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2010 - 2015</span>
+                    <span>2024</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Facebook</span>
+                    <span>HTSL.In</span>
                   </p>
                 </div>
               </div>
@@ -267,22 +274,22 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Master Degree</h4>
+                <div className="experience">
+                  <h4>Video editor (Freelancer)</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2003</span>
+                    <span>2023</span>
                   </p>
                   <p>
                     <i className="fa-solid fa-building-columns" />
-                    <span>London University</span>
+                    <span>Sky esports masters</span>
                   </p>
                 </div>
               </div>
             </li>
             {/* TIMELINE ITEM ENDS */}
             {/* TIMELINE ITEM STARTS */}
-            <li>
+            {/* <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="education">
                   <h4>Bachelor Degree</h4>
@@ -296,7 +303,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </li>
+            </li> */}
             {/* TIMELINE ITEM ENDS */}
             <li />
           </ol>
