@@ -34,7 +34,7 @@ const Index = () => {
             <Separator type={"up"} />
             <Contact />
             <Separator type={"down"} />
-            <Clients />
+            {/* <Clients /> */}
             <Separator type={"up"} />
             {/* <Blog /> */}
             {/* <Separator type={"down"} /> */}

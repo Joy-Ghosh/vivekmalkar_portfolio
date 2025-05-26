@@ -230,7 +230,7 @@ const About = () => {
                     <span>2025</span>
                   </p>
                   <p>
-                    <i className="fa-regular fa-building" />
+                    <i className="fa-solid fa-building-columns" />
                     <span>Owlet</span>
                   </p>
                 </div>
@@ -247,7 +247,7 @@ const About = () => {
                     <span>2024</span>
                   </p>
                   <p>
-                    <i className="fa-regular fa-building" />
+                    <i className="fa-solid fa-building-columns " />
                     <span>Fotostotra</span>
                   </p>
                 </div>
@@ -264,7 +264,7 @@ const About = () => {
                     <span>2024</span>
                   </p>
                   <p>
-                    <i className="fa-regular fa-building" />
+                    <i className="fa-solid fa-building-columns " />
                     <span>HTSL.In</span>
                   </p>
                 </div>
@@ -281,8 +281,8 @@ const About = () => {
                     <span>2023</span>
                   </p>
                   <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>Sky esports masters</span>
+                    <i className="fa-regular fa-building" />
+                    <span>Esports Shorts</span>
                   </p>
                 </div>
               </div>

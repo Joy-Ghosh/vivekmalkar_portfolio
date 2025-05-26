@@ -46,9 +46,11 @@ body {
   height: 100%;
   font-family: "Livvic", sans-serif;
   font-size: 18px;
-  background-color: #0b0b0b;
+  background-color: #131316;
+  /* background-color: #2E2E2E ; */
   margin: 0;
-  color: #fff;
+  color: #fcfcff;
+  /* color: #fff; */
 }
 
 #wrapper {
@@ -995,7 +997,7 @@ header .mobile-menu {
 .facts > div > div > div > div p {
   margin: 0;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
 

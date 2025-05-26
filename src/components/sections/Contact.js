@@ -93,11 +93,11 @@ const Contact = () => {
         </div>
       </div>
       {/* CONTACTS ENDS */}
-      <img
+      {/* <img
         alt=""
         className="separator hide-mobile"
         src="assets/separator.png"
-      />
+      /> */}
     </section>
   );
 };
