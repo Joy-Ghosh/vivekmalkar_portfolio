@@ -357,7 +357,7 @@ ul {
   box-shadow: none !important;
   border-radius: 40px;
   font-weight: 500;
-  color: #fff;
+  color: #131316;
   padding: 14px 36px;
   outline: none !important;
   overflow: hidden;
@@ -369,7 +369,7 @@ ul {
   cursor: pointer;
   text-decoration: none;
   user-select: none;
-  background-color: #222;
+  background-color: #C0C0C0;
 }
 
 .custom-btn span {
@@ -389,7 +389,7 @@ ul {
 }
 
 .custom-btn:hover {
-  color: #fff;
+  color: #131316;
 }
 
 .custom-btn:hover:before {
@@ -1767,6 +1767,87 @@ header .mobile-menu {
   max-width: 100%;
   height: auto;
 }
+
+
+
+/* contact form */
+/* Container for the entire contact form section */
+.contactform {
+  background-color: #1e1e1e; /* Dark background to match site theme */
+  padding: 2rem;
+  border-radius: 20px;
+  color: #ffffff; /* White text for contrast */
+}
+
+/* Container for form and contact details */
+.contactform-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Individual form fields */
+.contactform-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Input and textarea fields */
+.contactform-form input,
+.contactform-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #2a2a2a; /* Slightly lighter than background */
+  color: #ffffff;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contactform-form input::placeholder,
+.contactform-form textarea::placeholder {
+  color: #bbbbbb; /* Light gray placeholders */
+}
+
+/* Focus state for inputs */
+.contactform-form input:focus,
+.contactform-form textarea:focus {
+  background-color: #333333;
+  outline: none;
+}
+
+/* Submit button */
+.send-button {
+  background-color: #f6e6ce; /* Beige accent color */
+  color: #000000;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #ffe7c2; /* Slightly lighter on hover */
+}
+
+/* Contact information section */
+.contactform-info {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contactform-info a {
+  color: #f6e6ce;
+  text-decoration: none;
+}
+
+.contactform-info a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* [ RESPONSIVE ] */
 /*================================================== */

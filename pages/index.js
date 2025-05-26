@@ -31,11 +31,11 @@ const Index = () => {
             <Portfolio />
             <Separator type={"down"} />
             {/* <Testimonials /> */}
-            {/* <Separator type={"up"} /> */}
-            <Contact />
             <Separator type={"up"} />
-            {/* <Clients /> */}
+            <Contact />
             <Separator type={"down"} />
+            {/* <Clients /> */}
+            {/* <Separator type={"up"} /> */}
             {/* <Blog /> */}
             {/* <Separator type={"down"} /> */}
             <Copyright />
