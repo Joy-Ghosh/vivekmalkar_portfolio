@@ -78,7 +78,7 @@ const About = () => {
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Phone :</span>
-                    <span>+91 90027 60182</span>
+                    <span><a href="tel:+919002760182">+91 90027 60182</a></span>
                   </span>
                 </span>
               </li>
@@ -86,7 +86,7 @@ const About = () => {
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Email :</span>
-                    <span>vivekmalakar.work@gmail.com</span>
+                    <span><a href="mailto:vivekmalakar.work@gmail.com">vivekmalakar.work@gmail.com</a></span>
                   </span>
                 </span>
               </li>
@@ -94,7 +94,7 @@ const About = () => {
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Whatsapp :</span>
-                    <span>+91 77183 68238</span>
+                    <span><a href="https://wa.me/+917718368238">+91 77183 68238</a></span>
                   </span>
                 </span>
               </li>

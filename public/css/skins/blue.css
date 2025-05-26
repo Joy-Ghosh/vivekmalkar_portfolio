@@ -18,7 +18,7 @@ header .header-inner .menu ul li span:hover,
 .contact .boxes .social li a:hover,
 .copyright > div > span a,
 .mCSB_dragger_bar:after,
-header .header-inner .mail p span,
+header .header-inner .mail a span,
 .main-post .meta i {
     color: #F7E7CE;
 }

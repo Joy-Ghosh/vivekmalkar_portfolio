@@ -521,10 +521,12 @@ header .header-inner .menu ul li span.active:before {
   top: -34px;
 }
 
-header .header-inner .mail p {
+header .header-inner .mail a {
+  color: #FCFCFF;
   margin: 0;
   font-size: 18px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 header .mobile-menu {

@@ -30,9 +30,9 @@ const Header = () => {
         {/* MENU ENDS */}
         {/* FREELANCE STARTS */}
         <div className="mail">
-          <p>
+          <a href="mailto:vivekmalakar.work@gmail.com">
             Email :<span> vivekmalakar.work@gmail.com</span>
-          </p>
+          </a>
         </div>
         {/* FREELANCE ENDS */}
       </div>
