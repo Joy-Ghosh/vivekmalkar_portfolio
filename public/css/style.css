@@ -460,11 +460,12 @@ ul {
 .animated-btn span:before {
   top: 0;
   left: 0;
+  color: #333;
 }
 
 .animated-btn span:after {
   left: -60px;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* [ HEADER ] */
