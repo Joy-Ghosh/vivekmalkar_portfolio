@@ -30,12 +30,12 @@ const Index = () => {
             <Separator type={"up"} />
             <Portfolio />
             <Separator type={"down"} />
-            <Testimonials />
-            <Separator type={"up"} />
+            {/* <Testimonials /> */}
+            {/* <Separator type={"up"} /> */}
             <Contact />
-            <Separator type={"down"} />
-            {/* <Clients /> */}
             <Separator type={"up"} />
+            {/* <Clients /> */}
+            <Separator type={"down"} />
             {/* <Blog /> */}
             {/* <Separator type={"down"} /> */}
             <Copyright />

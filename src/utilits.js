@@ -49,9 +49,7 @@ export const jqueryFuntion = () => {
       // 10
       ;
     var contactwidth =
-      portfoliowidth + $(".contact").width()
-       + $(".testimonials").width() 
-       - 10;
+      portfoliowidth + $(".contact").width();
     var blogwidth =
       contactwidth + $(".blog").width() + $(".copyright").width() - 10;
 
